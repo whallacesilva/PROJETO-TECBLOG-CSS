@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECBLOG - O seu blog de tecnologia</title>
+  
+    <link rel="stylesheet" type="text/css" href="../../EXERCICIOS HTML, CSS, JS/TECBLOG/css/estilo.css">
+
+</head>
+<body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="index.html">home</a>
+            <a href="jogos.html">jogos</a>
+            <a href="celulares.html">celulares</a>
+            <a href="informatica.html">informática</a>
+            <a href="eletronicos.html">eletrônicos</a>
+        </div>
+    </div>
+    <div id="area-principal">
+        <!-- abertura da postagem -->
+        <div id="area-postagens">
+            <div class="postagem">
+                <h2>Consectetur saepe voluptas.</h2>
+               <span class="data-postagem" >Postado em julho de 2022</span>
+               <img width="620px" src="imagens/imagem2.jpg" alt="imagem01">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laborum vel iste, deleniti consequuntur suscipit autem impedit. Aliquam ipsa, provident rem nemo praesentium iusto eum magnam corporis cumque ipsam quidem.
+               </p>
+               <a href="#">Leia mais</a>
+            </div>
+            <!-- fechamento da postagem -->
+        </div>
+
+        <div id="area-lateral">
+            <div class="conteudo-lateral">
+                 <h3>Postagens recentes</h3>
+                    <div class="postagem-lateral">
+                        <p> Ipsum dolor sit amet consectetur adipisicing elit nostrum suscipit modi dolore delectus ?</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                    <div class="postagem-lateral">
+                        <p> Ipsum dolor sit amet consectetur adipisicing elit nostrum suscipit modi dolore delectus ?</p>
+                        <a href="">Leia mais</a>
+                    </div>
+            </div>
+            <div class="conteudo-lateral">
+                 <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Jogos</a></li>                       
+                        <li><a href="#">Celulares</a></li>                       
+                        <li><a href="#">Informática</a></li>                       
+                        <li><a href="#">Eletrônicos</a></li>                       
+                    </ul>
+             </div>
+            <div class="conteudo-lateral">
+                 <h3>Tabelas</h3>
+                    <ul>
+                        <li><a href="#">Simples</a></li>                       
+                        <li><a href="#">Complexa</a></li>                                      
+                    </ul>
+             </div>
+            <div class="conteudo-lateral">
+                 <h3>Formulários</h3>
+                    <ul>
+                        <li><a href="#">Contato</a></li>                                                   
+                    </ul>
+             </div>
+        </div>
+
+        <!-- abertura da postagem -->
+        <div id="area-postagens">
+            <div class="postagem">
+                <h2>Quas natus adipisci!</h2>
+               <span class="data-postagem" >Postado em junho de 2022</span>
+               <img width="620px" src="imagens/imagem1.jpg" alt="imagem01">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laborum vel iste, deleniti consequuntur suscipit autem impedit. Aliquam ipsa, provident rem nemo praesentium iusto eum magnam corporis cumque ipsam quidem.
+               </p>
+               <a href="#">Leia mais</a>
+            </div>
+            <!-- fechamento da postagem -->
+        </div>
+        
+         <!-- abertura da postagem -->
+        <div id="area-postagens">
+            <div class="postagem">
+                <h2>Tabelas</h2>
+               <span class="data-postagem" >Postado em março de 2022</span>
+               <img width="620px" src="imagens/imagem3.jpg" alt="imagem01">
+               <br>
+               <br>
+
+               
+                <table border="5">
+                    <thead>Tabela 01</thead>
+                    <caption>PRODUTOS X PREÇO</caption>
+                    <tbody>
+                        <tr>
+                            <th>CODIGO</th>
+                            <th>PRODUTO</th>
+                            <th>PREÇO</th>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td><a href="#">TABLET</a></td>
+                            <td>R$2.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td><a href="#">CELULARES</a></td>
+                            <td>R$1.500,00</td>
+                        <tr>
+                            <td>003</td>
+                            <td><a href="#">NOTEBOOK</a></td>
+                            <td>R$1.500,00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Desconto</td>
+                            <td colspan="2">Cupom 01 R$ 100,00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Cupom 02 R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Cupom 03 R$ 200,00</td>
+                        </tr>
+                        <tr>
+                            <td>TOTAL:</td>
+                            <td colspan="2">R$ 5.500,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    <tfoot> Exemplo de tabela simples</tfoot>
+                        
+            <br><br>
+            <a href="#">Leia mais</a>    
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <table border="5">
+                <thead >Tabela 02</thead>
+				<caption>PRODUZIDOS VENDIDOS POR LOJA</caption>
+                	<colgroup> <!--agrupamento de colunas-->
+					<col> <!--col = coluna-->
+					<col span="2" style="background-color: lightblue" > <!--sapn = espande a coluna-->
+					<col span="2" style="background-color: lightgreen">
+				</colgroup>
+
+				<thead>
+					<tr> <!--linha 1 da tabela-->
+						<th rowspan="2"></th> <!-- rowspan = row de linha -->
+						<th scope="colgroup" colspan="2" > <a href="">LOJA 1</a></th> <!--colwspan = col de coluna-->
+						<!--scope = melhor acessibilidade-->
+						<th scope="colgroup" colspan="2" ><a href="">LOJA 2</a></th>
+					</tr>
+					<tr><!--linha 2 da tabela-->
+						<th scope="col" >Produzidos</th> <!--th = table header. linha principal em negrito-->
+						<th scope="col" >Vendidos</th>
+						<th scope="col" >Produzidos</th>
+						<th scope="col" >Vendidos</th>
+					</tr>	
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" >VASSOURAS</th>
+						<td>50</td>
+						<td>30</td>
+						<td>20</td>
+						<td>35</td>
+					</tr>
+					<tr>
+						<th scope="row" >BALDES</th>
+						<td>50</td>
+						<td>30</td>
+						<td>20</td>
+						<td>35</td>
+					</tr>
+				</tbody>
+
+			</table>
+            <tfoot> Exemplo de tabela complexa</tfoot>
+                        
+            <br><br>
+            <a href="#">Leia mais</a>    
+            <br>
+            <br>
+            </div>
+            <!-- fechamento da postagem -->
+        </div>
+        
+    <div id="area-postagens">
+        <div class="postagem">
+            <h2>Formulário</h2>
+           <span class="data-postagem" >Postado em março de 2022</span>
+           <img width="620px" src="imagens/imagem4.jpg" alt="imagem01">
+            
+        <form id="formularios" action="">
+			<fieldset>
+				<legend class="legend" >Contato</legend>
+				<label class="label" for="name">Nome</label>
+				<br>
+				<input class="entrada" id="name" type="text" name="name" placeholder="digite seu nome" required autofocus>
+				<br>
+				
+				<label class="label"  for="email">Email</label>
+				<br>
+				<input class="entrada"  id="email" type="email" name="email" placeholder="digite seu email">
+				<br>
+                <br>
+                <hr>
+                <br>
+                <label class="label"  for="email">Sexo:</label>
+                <br>
+                <input class="entrada"  type="radio" name="sexo" value="M">Masculino
+                <input class="entrada"  type="radio" name="sexo" value="F">Feminino<br>
+                <br>
+
+                <label class="label"  for="email">Itens de interese:</label>
+                <br>
+                <br>
+                <input class="checkbox"  type="checkbox" name="interesses"> Notebooks<br>
+                <input class="checkbox" type="checkbox" name="interesses"> Celulares<br>
+                <input class="checkbox" type="checkbox" name="interesses"> Tablets<br>
+                <br>
+                <label class="label"  for="email">Estado</label>
+                <br>
+                <select class="entrada" name="estado"> 
+                    <option value="sp">SP</option>
+                    <option value="mg">MG</option>
+                    <option value="mt">MT</option>
+                </select>
+                <br><br>
+				<label class="entrada" for="msg">Deixe aqui sua mensagem:</label>
+				<br>
+				<textarea class="entrada" name="msg" id="msg" cols="85" rows="10" placeholder="deixe sua msg"></textarea>
+			
+				<br><br>
+				<button class="entrada" type="submit" >Enviar</button>
+                <br>
+                <br>
+			</fieldset>
+		</form>
+        <br>
+            
+           <a href="#">Leia mais</a>
+           <br><br>
+        </div>
+        <!-- fechamento da postagem -->
+    </div>
+    <div id="rodape">
+        Todos os direitos reservados
+    </div>
+
+</body>
+</html>
